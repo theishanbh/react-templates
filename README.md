@@ -7,6 +7,7 @@ Welcome to the React Templates Repository! These templates serve the purpose to 
 - [Introduction](#introduction)
 - [Templates](#templates)
   - [useContext Hook Template](#usecontext-hook-template)
+  - [useReducer Hook Template](#usereducer-hook-template)
   - [More Templates](#more-templates)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
@@ -23,6 +24,12 @@ This repository contains templates for various React hooks and libraries. Each t
 The `useContext` hook is a powerful way to pass data through your component tree without having to manually pass props at every level. Our template provides a simple and scalable way to implement the `useContext` hook in your projects.
 
 - [useContext Hook Template](useContext/context.ts)
+
+### useReducer Hook Template
+
+The `useReducer` hook is a great alternative to `useState` for managing complex state logic in your components. It is especially useful when the state depends on previous state values or when state transitions are encapsulated in a reducer function. Our template provides a straightforward and scalable way to implement the `useReducer` hook in your projects.
+
+- [useReducer Hook Template](useReducer/index.ts)
 
 ### More Templates
 
