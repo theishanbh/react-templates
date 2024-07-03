@@ -3,7 +3,7 @@
 
 // just replace Post with whatever context file you want to make
 
-import { createContext, useContext, useMemo, useState } from "react";
+import { createContext, useContext, useState } from "react";
 // import { faker } from "@faker-js/faker";
 
 // function createRandomPost() {
@@ -21,7 +21,7 @@ const PostContext = createContext();
 function PostProvider({ children }) {
   // all use state and useeffect and other state logic goes here
 
-  ///////////////////////// SAMPLE CODE START
+  ///////////////////////// SAMPLE CODE START - Put your own code and logic
   const [posts, setPosts] = useState();
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -36,7 +36,7 @@ function PostProvider({ children }) {
 
   //   add values such as states and functions you need to pass
   const value = {
-    ///////////// SAMPLE CODE START
+    ///////////// SAMPLE CODE START - Put your own code and logic
     //   posts: searchedPosts,
     //   onAddPost: handleAddPost,
     //   onClearPosts: handleClearPosts,
