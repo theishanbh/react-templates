@@ -31,6 +31,12 @@ The `useReducer` hook is a great alternative to `useState` for managing complex 
 
 - [useReducer Hook Template](useReducer/index.ts)
 
+### Redux Template
+
+Redux is a powerful state management library that is particularly useful for managing the state of complex applications. By centralizing the application's state in a single store, Redux provides a predictable and consistent state management solution. Our template offers a streamlined and scalable approach to implementing Redux in your projects, ensuring efficient and maintainable state management.
+
+- [Redux Template](redux/store.ts)
+
 ### More Templates
 
 I plan to add more templates over time. Stay tuned for updates!
